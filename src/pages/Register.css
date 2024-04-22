@@ -1,0 +1,105 @@
+/* Login.css */
+/*.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: 50px;
+}
+.login Form {
+  max-width: 35%;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: white;
+}
+
+.login h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login .ant-form-item {
+  margin-bottom: 20px;
+}
+
+.loginpage button {
+  background-color:  #ff4141;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-left: 220px;
+  
+}
+
+.loginpage button:hover {
+  background-color: #2980b9;
+}
+
+.loginpage .d-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.login a {
+  color: #ff4141;
+    font-weight: 600;
+}*/
+.login {
+  max-width: 400px;
+  margin: 150px auto; /* Adjusted margin-top to bring the form closer to the top */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.login h1 {
+  text-align: center;
+  color: #333;
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login input {
+  margin-bottom: 6px; /* Adjusted margin-bottom to bring textboxes closer */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #217dbb;
+}
+
+.login .d-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.login a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+.login a:hover {
+  text-decoration: underline;
+}
